@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #e2e2e2e2;
+}
+
+h1 {
+  font-size: 10rem;
+
+  background: #a94eff;
+  background: -webkit-radial-gradient(
+    circle farthest-side at top center,
+    #a94eff 0%,
+    #3e3578 100%
+  );
+  background: -moz-radial-gradient(
+    circle farthest-side at top center,
+    #a94eff 0%,
+    #3e3578 100%
+  );
+  background: radial-gradient(
+    circle farthest-side at top center,
+    #a94eff 0%,
+    #3e3578 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

@@ -1,0 +1,119 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  --button-color: #69b99d;
+  --button-hover-color: #093f2c;
+  --font-h1: #000000;
+  --font-p: #7d7987;
+  --font-button-color: #f9f9f9;
+  --span-h1-color: #89c5cc;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+  font-size: 1.6rem;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 3rem;
+  padding-block: 3rem;
+}
+
+nav ul {
+  display: flex;
+  gap: 4.8rem;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1.8rem;
+  color: #1f1534;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 3rem;
+  padding-block: 3rem;
+  width: 100%;
+  height: 80vh;
+}
+
+.home div {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.home h1 {
+  width: 48rem;
+  font-size: 4.9rem;
+  font-weight: 700;
+}
+
+.home h1 span {
+  color: var(--span-h1-color);
+}
+
+.home p {
+  width: 43.8rem;
+  color: var(--font-p);
+}
+
+.home p span {
+  font-weight: 700;
+  color: #000000;
+}
+
+.home button {
+  width: 17rem;
+  height: 5.6rem;
+
+  border: none;
+  border-radius: 0.4rem;
+  background-color: var(--button-color);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
+
+  color: var(--font-button-color);
+  cursor: pointer;
+}
+
+.home button:hover {
+  background-color: var(--button-hover-color);
+  transform: scale(1.1);
+}
+
+footer {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+
+footer span {
+  font-weight: 700;
+}

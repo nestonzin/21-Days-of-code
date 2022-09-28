@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  --gray: #333;
+  --blue: #162c8d;
+  --white: rgb(255, 255, 255 0.5);
+}
+
+body,
+html {
+  width: 100%;
+  height: 100vh;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+  background-image: url(assets/bgzao.jpg);
+  background-size: cover;
+  text-align: center;
+}
+
+main {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+}
+
+.container {
+  background-color: var(--white);
+  box-shadow: 0px 0px 20px 0px;
+  padding: 1rem;
+  border-radius: 1rem;
+  width: 90%;
+  max-width: 35rem;
+}
+
+h1 {
+  text-transform: uppercase;
+  color: var(--blue);
+  font-size: clamp(0.5rem, 2rem, 3rem);
+  font-weight: 900;
+}
+
+span {
+  color: var(--gray);
+  font-size: clamp(1rem, 2rem, 3rem);
+  font-weight: 700;
+}
+
+.button-container {
+  width: 100%;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.btn {
+  padding: 1rem;
+  width: 33%;
+  font-size: clamp(0.8rem, 4vw, 1.2rem);
+  border-radius: 1rem;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  color: var(--gray);
+  transition: 0.4s;
+}
+
+.btn:hover {
+  background-color: var(--blue);
+  color: var(--white);
+}
+
+@media only screen and (max-width: 300px) {
+  .button-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btn {
+    width: 100%;
+    margin-bottom: 0.1rem;
+  }
+}

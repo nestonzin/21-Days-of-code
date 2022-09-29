@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  --btn-color: #c9bdeb;
+  --font-color: #1f1f1f;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding-block: 3rem;
+  padding-inline: 8rem;
+}
+
+h1 {
+  color: var(--font-color);
+}
+
+nav ul {
+  display: flex;
+  gap: 2rem;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: var(--font-color);
+}
+
+nav ul li a:hover {
+  border: 1px solid var(--font-color);
+  padding: 1rem;
+  border-radius: 2rem;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 8rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.container h2 {
+  color: var(--font-color);
+  font-size: 10rem;
+}
+.container h3 {
+  color: var(--font-color);
+  font-size: 5rem;
+}
+
+.container h4 {
+  color: var(--font-color);
+  font-size: 2.5rem;
+}
+
+.container p {
+  color: var(--font-color);
+  font-size: 1rem;
+}
+
+.container button {
+  border: none;
+  width: 10rem;
+  height: 5rem;
+  cursor: pointer;
+  background-color: var(--btn-color);
+  color: var(--font-color);
+  font-weight: 700;
+  border-radius: 2rem;
+}
+
+.container button:hover {
+  color: #fff;
+  background-color: #9b7fe8;
+}

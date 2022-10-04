@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  background-color: #f0f8ff;
+  font-family: "Poppins", sans-serif;
+  color: #380b61;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#titulo {
+  color: #380b61;
+  text-align: center;
+}
+
+#subtitulo {
+  color: #380b61;
+  text-align: center;
+}
+
+fieldset {
+  border: none;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+input,
+select,
+textarea,
+button {
+  border-radius: 0.5rem;
+}
+
+.grupo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.campo {
+  margin-bottom: 1rem;
+}
+
+.campo label {
+  margin-bottom: 0.2rem;
+  color: #59429d;
+  display: block;
+}
+
+.campo input[type="text"],
+.campo input[type="email"],
+.campo select,
+.campo textarea {
+  padding: 0.2rem;
+  border: 1px solid #59429d;
+  box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.2);
+  display: block;
+}
+
+.campo select option {
+  padding-right: 1rem;
+}
+
+.campo input:focus,
+.campo select:focus,
+.campo textarea:focus {
+  background-color: #e0e0f8;
+}
+
+.botao {
+  font-size: 1.2rem;
+  background-color: #59429d;
+  border: none;
+  margin-bottom: 1rem;
+  color: #fff;
+  padding: 0.2rem 0.6rem;
+  box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.2);
+  text-shadow: 1px 1px 1px rgb(0, 0, 0, 0.5);
+}
+
+.textArea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+    <script>
+      window.addEventListener("DOMContentLoaded", () => {
+        VANTA.BIRDS({
+          el: "#vanta",
+          mouseControls: true,
+          touchControls: true,
+          gyroControls: false,
+          minHeight: 200.0,
+          minWidth: 200.0,
+          backgroundAlpha: 0.1,
+          scale: 1.0,
+          color2: '#d95053',
+          scaleMobile: 1.0,
+        });
+      });
+    </script>
+    <title>Day 9</title>
+  </head>
+  <body>
+    <div id="vanta"></div>
+    <main>
+      <header>
+        <img src="assets/coolcat.jpeg" alt="" />
+        <h1>neston</h1>
+      </header>
+
+      <ul>
+        <li>
+          <img src="assets/home icon.png" alt="" />
+          <a href="#"> Portfolio</a>
+        </li>
+        <li>
+          <img src="assets/linkedin icon.png" alt="" />
+          <a href="#"> Linkedin</a>
+        </li>
+        <li>
+          <img src="assets/github icon.png" alt="" />
+          <a href="#"> GitHub</a>
+        </li>
+        <li>
+          <img src="assets/twitter icon.png" alt="" />
+          <a href="#"> Twitter</a>
+        </li>
+      </ul>
+    </main>
+  </body>
+</html>
